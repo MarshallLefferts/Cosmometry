@@ -1,0 +1,786 @@
+/*AssetCacher names: default */
+@charset "UTF-8";
+/* CSS Document */
+
+/* Site-wide properties ======================================================== */
+body{
+	margin:0;
+	padding:0;
+	font:normal 14px/20px Arial, Helvetica, sans-serif;
+	background-color:#000000;
+    color:#666666;
+}
+body a{
+	font:bold 14px/20px Arial, Helvetica, sans-serif;
+	color:#303c80;
+        text-decoration: none;
+}
+body a:hover{
+	font:bold 14px/20px Arial, Helvetica, sans-serif;
+	color:#303c80;
+        text-decoration: underline;
+}
+
+
+.summary-read-link {
+  display: none;
+}
+
+/* Reusable classes ============================================================ */
+
+/* Left & Right alignment */
+.left{ float: left; }
+.right{ float: right; }
+
+/* The inside class provides consistent padding. To be used often! */
+.inside{ padding: 20px; }
+.inside2{ padding:30px; }
+
+/* The fraction classes are useful for column lists */
+.half, .third, .quarter, .fifth, .sixth{ width: 100%; }
+.half li, .third li, .quarter li, .fifth li, .sixth li{ float: left; }
+.half li{ padding-right: 5%; width: 45% }
+.third li{  padding-right: 5%; width: 28.3% }
+.quarter li{  padding-right: 5%; width: 20% }
+.fifth li{  padding-right: 5%; width: 15% }
+
+.clear{clear:both; height:0px; margin:0; padding:0;}
+.separator{
+    clear: both;
+    float: left;
+    height: 1px;
+    width: 100%; }
+.shadow {
+	text-shadow: 1.5px 1.5px 0px #DA7140;
+}
+img{
+	border:0px solid #1b1b1b;
+}
+.image{
+        text-align:center;
+        display:block;
+}
+.imagewrapleft {
+  float: left;
+  margin: 1em;
+}
+
+.imagewrapright {
+  float: right;
+  margin: 1em;
+}
+.info{
+        margin:10px 0 0 0;
+}
+.caption{
+        font: 10px/12px Arial, Helvetica, sans-serif;
+        color:#000000;
+}
+.caption a{
+        font: 10px/12px Arial, Helvetica, sans-serif;
+        color:#3D446E;
+        text-decoration:none;
+}
+.caption a:hover{
+        font: 10px/12px Arial, Helvetica, sans-serif;
+        color:#3D446E;
+        text-decoration:underline;
+}
+.author{
+        font: 10px/12px Arial, Helvetica, sans-serif;
+        color:#000000;
+}
+.pdf-link{
+        float:left;
+        width:135px;
+        margin:0 20px 20px 0;
+        text-align: center;
+}
+.pdf-link a{
+        color:#3D446E;
+        text-decoration:none;
+        float:left;
+}
+.pdf-link a:hover{
+        text-decoration: underline;
+}
+a.a-link{
+        clear:both;
+        float:left;
+        padding:5px 0 0 0;
+}
+a.a-link:hover{
+        text-decoration:underline;
+}
+
+
+/* colors */
+.white{ background-color:#FFFFFF; }
+.gray6{ background-color:#666666; }
+.black{ background-color:#000000; }
+
+/* padding adjustment */
+
+/* Basic Structure ============================================================= */
+#background{
+	background:url(http://s3.amazonaws.com/cosmometry/assets/images/cosmo-bg.jpg) no-repeat scroll center top #000000;
+	margin:0 auto;
+	position:relative;
+	left:-13px;
+	height:1000px;
+	width:100%;
+}
+#container{
+    margin: 0 auto;
+    position: relative;
+	z-index:1;
+	width:1000px;
+	padding:0;
+	left:13px;
+	
+}
+
+/* Header ============================================================================*/
+#header{
+	width:1000px;
+	float:left;
+	height:auto;
+	padding:0;
+}
+#logo{
+    float: left;
+    margin:65px 0 30px 57px;
+    padding: 0;
+}
+#logo a{
+	text-decoration:none;
+	float:left;
+}
+#navigation{
+	float:left;
+	background:url("http://s3.amazonaws.com/cosmometry/assets/images/navigation-bg.png") repeat-x scroll 0 0;
+	width:1000px;
+	clear:both;
+	height:73px;
+	margin:14px 0 0 0;
+}
+#navigation ul{
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#navigation li{
+	float:left;
+	display:inline;
+	color:#3d506e;
+	list-style:none outside none;
+	margin:0 24px 0 0;
+	position:relative;
+	z-index:50;
+	padding:0;
+	
+}
+#navigation > li:hover{
+	background-color:#4373ac;
+	color:#FFFFFF;
+	-moz-box-shadow: 0 1px 3px 1px #333333;
+	-webkit-box-shadow: 0 1px 3px 1px #333333;
+	box-shadow: 0 1px 3px 1px #333333;
+
+}
+#navigation ul li:hover > a{
+	color:#FFFFFF;
+	background-color:#4373ac;
+	-moz-box-shadow: 0 1px 3px 1px #333333;
+	-webkit-box-shadow: 0 1px 3px 1px #333333;
+	box-shadow: 0 1px 3px 1px #333333;
+	z-index:60;
+}
+#navigation ul a{
+	text-decoration:none;
+	color:#3d506e;
+	float:left;
+	font: bold 14px/18px Tahoma, Geneva, sans-serif;
+	padding:7px 10px 6px 10px;
+	position:relative;
+}
+
+#navigation li ul{
+        background-color: #345A86;
+        display: none;
+        float: left;
+        margin: 31px 0 0;
+        padding: 0;
+        position: absolute;
+        text-align: left;
+        width: auto;
+        z-index: 10;
+	-moz-box-shadow: 0 2px 3px 1px #333333;
+	-webkit-box-shadow: 0 2px 3px 1px #333333;
+	box-shadow: 0 2px 3px 1px #333333;
+}
+
+#navigation li:hover ul{
+	position:absolute;
+	display:block;
+}
+#navigation li ul li{
+        background-color: #345A86;
+        display: block;
+        float: left;
+        font: 11px/15px Arial,Helvetica,sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        text-align: left;
+        width: 100%;
+}
+/*#navigation li ul li:hover{
+	background-color:#FFFFFF;
+}*/
+#navigation li ul li a{
+        background: url("../images/arrow.png") no-repeat scroll -20px 9px transparent;
+        color: #FFFFFF;
+        display: inline;
+        font: 14px/18px Tahoma, Geneva, sans-serif;
+        margin: 0;
+        padding: 5px 0 5px 6%;
+        text-decoration: none;
+            width: 94%;
+}
+#navigation li ul li a:hover{
+	text-decoration:none;
+	background-color:#4373ac;
+	background-position:10px 9px;
+	color:#ffd220;
+	-moz-box-shadow: 0 0 0 0 #333333;
+	-webkit-box-shadow: 0 0 0 0x #333333;
+	box-shadow: 0 0 0 0 #333333;
+}
+#navigation li.top-padding{
+	padding-top:10px;
+}
+#navigation li.bottom-padding{
+	padding-bottom:10px;
+}
+
+.breadcrumbs{
+  margin: 4px 0 0 10px;
+  color: #c4c4c4;
+  float: left;
+}
+
+.breadcrumbCarrot {
+  vertical-align: middle;
+}
+
+#navigation a.breadcrumb-link{
+  display: inline;
+  clear: both;
+  color: #c4c4c4;
+  font: normal 12px/16px Myriad Pro, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  background: inherit;
+}
+#navigation a.breadcrumb-link:hover{
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+#login-search{
+	float:right;
+}
+#login-search a{
+    color: #D1D1D1;
+    float: left;
+    font: 14px/18px Myriad Pro,Arial,Helvetica,sans-serif;
+    margin: 5px 0 0 10px;
+    padding: 0;
+    text-decoration: underline;
+	background-color:#4373AC;
+}
+#login-search a:hover{
+	text-decoration:underline;
+	color:#FFFFFF;
+	background-color:#4373AC;
+}
+#search{
+	float:left;
+	margin:0 38px 0 0;
+	padding:0;
+}
+#input-search{
+    background: url("http://s3.amazonaws.com/cosmometry/assets/images/search-field.png") no-repeat scroll 0 0 transparent;
+    border: 0 solid #000000;
+    color: #8E8E8E;
+    float: left;
+    font: 12px/18px Tahoma,Geneva,sans-serif;
+    height: 22px;
+    margin: 2px 0 0 10px;
+    padding: 0 4px 2px 26px;
+    width: 137px;
+}
+
+
+/* Content Structure ============================================================================*/
+#content{
+    background-color: #FFFFFF;
+    clear: both;
+    height: auto;
+    min-height: 500px;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+	top:-24px;
+	z-index:-1;
+	float:left;
+	padding:25px 0 0 0;
+}
+
+
+/* Footer ============================================================================*/
+#footer{
+	width:1000px;
+	float:left;
+	margin:0;
+	padding:0 0 20px 0;
+	position:relative;
+	clear:both;
+	background-color:#233b59;
+	border-top:1px solid #f0f0f0;
+	top:-24px;
+}
+#footer ul{
+	float:left;
+	margin:15px 0 0 20px;
+	padding:0;
+}
+#footer li{
+	float:left;
+	display:inline;
+	margin:0;
+	padding:0;
+	list-style:none outside none;
+	font:normal 12px/16px Arial, Helvetica, sans-serif;
+	color:#b0b1b3;
+}
+#footer li.delimiter{
+	padding:0 7px;
+}
+#footer a{
+	font:normal 12px/16px Tahoma, Geneva, sans-serif;
+	color:#b0b1b3;
+	text-decoration:none;
+}
+#footer a:hover{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+span#copyright{
+	float:right;
+	font:normal 12px/16px Tahoma, Geneva, sans-serif;
+	color:#b0b1b3;
+	margin:15px 20px 0 0;
+}
+
+/* Project specifics =========================================================== */
+/* Home Page ============================================================================*/
+
+#home-sidebar{
+	float:left;
+	background:url("http://s3.amazonaws.com/cosmometry/assets/images/sidebar-home-bg.jpg") no-repeat scroll -1px 0;
+	width:249px;
+	margin:0 20px 0 10px;
+	pading:0;
+}
+#home-sidebar-content{
+    border-left: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+    float: left;
+    margin: 153px 1px 0 0;
+    padding: 0;
+}
+span.welcome-image{
+	text-indent:-9999px;
+	text-decoration:none;
+	float:left;
+	background:url("http://s3.amazonaws.com/cosmometry/assets/images/welcome-img.png") no-repeat scroll 0 0;
+	width:222px;
+	height:53px;
+	margin:7px 0 0 14px;
+	padding:0;
+}
+img.acorn{
+    float: left;
+    margin: 35px 0 0 105px;
+    padding: 0;
+    height:125px;
+}
+p.home-sidebar-p{
+    clear: both;
+    color: #545454;
+    float: left;
+    font: italic 14px/24px Georgia,"Times New Roman",Times,serif;
+    margin: 85px 0 0;
+    padding: 0 10px 10px 12px;
+    width: 223px;
+}
+p.home-sidebar-p a{
+    clear: both;
+    color: #3d446e;
+    font: bold 14px/24px Georgia,"Times New Roman",Times,serif;
+    text-decoration: none
+}
+p.home-sidebar-p a:hover{
+    clear: both;
+    color: #3d446e;
+    font: bold 14px/24px Georgia,"Times New Roman",Times,serif;
+    text-decoration: underline
+}
+
+#home-content{
+	float:left;
+	margin:0;
+	padding:0 0 20px 0;
+	width:707px;
+	height:1000px;
+}
+#home-banner{
+	float:left;
+}
+.home-intro{
+    clear: both;
+    float: left;
+    margin: 14px 0 0 5px;
+    padding: 0;
+	width:707px;
+}
+.home-intro-left{
+    float: left;
+    margin: 0 40px 0 0;
+    padding: 0;
+    width: 320px;
+}
+.home-intro-right{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+.hi-description{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+}
+.hi-description h2{
+	font: bold 18px/22px Tahoma, Geneva, sans-serif;
+	color:#3d446e; 
+	margin:0;
+}
+.hi-description a{
+	font: bold 18px/22px Tahoma, Geneva, sans-serif;
+	color:#3d446e; 
+	text-decoration:none;
+}
+.hi-description a:hover{
+	font: bold 18px/22px Tahoma, Geneva, sans-serif;
+	color:#3d446e; 
+	text-decoration:underline;
+}
+.hi-description p{
+	font: normal 14px/19px Tahoma, Geneva, sans-serif;
+	color:#666666;
+	margin:0 0 16px 0;
+	padding:0;
+}
+
+.home-featured{
+	float:left;
+	margin:10px 0 0 0;
+	padding:0;
+	width:700px;
+}
+.featured{
+	width:335px;
+	height:auto;
+	margin:0;
+	padding:0;
+	background:url("http://s3.amazonaws.com/cosmometry/assets/images/featured-background.png") repeat-x scroll 0 0 #f5f5f5;
+    -moz-box-shadow: inset 0 0 5px #aaa;
+    -webkit-box-shadow: inset 0 0 5px#aaa;
+    box-shadow: inner 0 0 5px #aaa;
+}
+.featured h2{
+    color: #FFFFFF;
+    float: left;
+    font: bold 18px/22px Myriad Pro, Arial,Helvetica,sans-serif;
+    margin: 8px 0 10px 18px;
+}
+.featured-details{
+/*    background: url("http://s3.amazonaws.com/cosmometry/assets/images/featured-details-bg.png") no-repeat scroll 0 0 transparent; */
+    background: none scroll #d6dcf0;
+    float: left;
+    height: 88px;
+    margin: 0 0 10px 10px;
+    width: 294px;
+    padding:6px 10px 10px 12px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.featured-details span{
+	color:#737373;
+        font: normal 12px/17px Tahoma, Geneva, sans-serif;
+	float:left;
+	width:292px;
+}
+.featured-details a.featured-title{
+	color:#3d446e;
+	font-weight:bold;
+        font: bold 11px/17px Tahoma, Geneva, sans-serif;
+	width:292px;
+        text-decoration:none;
+}
+.featured-details a.featured-title:hover{
+	color:#3d446e;
+        text-decoration:underline;
+}
+
+
+
+
+
+
+
+/* Landing Page ============================================================================*/
+#landing-sidebar{
+	float:left;
+	background:url(http://s3.amazonaws.com/cosmometry/assets/images/sidebar-landing-bg.png) no-repeat scroll -1px 0;
+	width:249px;
+	margin:0 20px 0 10px;
+	padding:0;
+        height: 100%!important;
+}
+#landing-sidebar .section-title{
+  position: absolute;
+  padding: 5px;
+  font-size: 19px;
+  width: 135px;
+  line-height: 18px;
+  color: #283A67;
+  font-weight: bold;
+  top: 133px;
+  left: 18px;
+  font-family: Gill Sans MT Bold, sans-serif;
+}
+#landing-sidebar-content{
+    border-left: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+    float: left;
+    margin: 90px 1px 0 0;
+    padding: 0;
+    min-height: 410px;
+}
+p.landing-sidebar-p{
+    clear: both;
+    color: #545454;
+    float: left;
+    
+    margin: 75px 0 0;
+    padding: 0 10px 10px 25px;
+    width: 211px;
+	height:auto;
+}
+h2.landing-sidebar-h2{
+	color:#525252;
+	font:bold 21px/23px Myriad Pro, Arial, Helvetica, sans-serif;
+	width:150px;
+	margin:0 0 0 20px;
+	padding:0;
+}
+#landing-content{
+	float:left;
+	margin:0 0 10px 0;
+	padding:0;
+	width:707px;
+        height:auto;
+}
+#landing-content h1{
+	color:#e8b100;
+	font:bold 35px/37px Myriad Pro, Arial, Helvetica, sans-serif;
+	margin:20px 0 0 20px;
+	padding:0;
+}
+#landing-content h1 a{
+	color:#e8b100;
+	font:bold 35px/37px Myriad Pro, Arial, Helvetica, sans-serif;
+	padding:0;
+        margin:0;
+        text-decoration:none;
+}
+#landing-content h1 a:hover{
+	color:#e8b100;
+	font:bold 35px/37px Myriad Pro, Arial, Helvetica, sans-serif;
+        text-decoration:underline;
+}
+.landing-intro{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width:707px;
+    height:auto;
+    background:url(http://s3.amazonaws.com/cosmometry/assets/images/landing-content-background.png) repeat-x scroll 0 0 #f5f5f5;
+    -moz-box-shadow: inset 0 0 5px #aaa;
+    -webkit-box-shadow: inset 0 0 5px#aaa;
+    box-shadow: inner 0 0 5px #aaa;
+}
+
+.landing-featured{
+	float:left;
+	margin:20px 0 0 0;
+	padding:0;
+	width:707px;
+}
+.landing-item{
+	float:left;
+	margin:15px 0 0 15px;
+}
+.landing-item img{
+	float:left;
+}
+.landing-item-description{
+    float: left;
+    margin: 15px 0 0 15px;
+    width: 460px;
+}
+.landing-item h2{
+	font:bold 20px/20px Tahoma, Geneva, sans-serif;
+	color:#3d446e;
+	margin:0;
+	padding:0;
+}
+.landing-item a{
+	font:bold 20px/20px Tahoma, Geneva, sans-serif;
+	color:#3d446e;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+.landing-item a:hover{
+	font:bold 20px/20px Tahoma, Geneva, sans-serif;
+	text-decoration:underline;
+	color:#3d446e;
+}
+.landing-item p{
+	font:normal 14px/19px Tahoma, Geneva, sans-serif;
+	color:#404040;
+	margin:12px 0;
+}
+
+.sidebar-menu {
+	margin-left: -15px;
+}
+
+.sidebar-menu .node {
+	display: none;
+	cursor: pointer;
+}
+
+.sidebar-menu .node .nav {
+	width: 10px;
+}
+
+.sidebar-menu .resource.inner {
+  font-size: 12px; 
+}
+
+/* Article view ======================================================== */
+#page-content{
+	float:left;
+	margin:0;
+	padding:0;
+	width:680px;
+        height:auto;
+}
+#page-content h1 {
+    color: #E8B100;
+    font: bold 30px/32px Myriad Pro,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#page-content h2 {
+    color: #800080;
+    font: bold 24px/26px Georgia,"Times New Roman",Times,serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebarSelected {
+  background-color: #e2e2e2;
+  color: #001CBA;
+}
+
+.sidebarHover {
+  background-color: #e2e2e2;
+  color: #001CBA;
+}
+.parentNodeTitle .resource {
+  margin-left: 3px;
+}
+
+.shadowed {
+    -o-box-shadow: 2px 2px 4px 1px rgba(0,0,0,.2);
+    -webkit-box-shadow: 2px 4px 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 2px 2px 4px 1px rgba(0,0,0,.2);
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,.4);
+    background-color: #F1F1F1;
+    margin-bottom: 16px;
+}
+  div.titleBox {
+    display: block;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 0;
+    border: 1px solid #9EC6A4;
+    background-color: #cbdeca;
+    color: #60718D;
+  }
+  div.titleBox .nav img {
+    position: relative;
+    top: 3px;
+  }
+  span.spacer {
+    width: 10px;
+    display: inline-block;
+  }
+  .nav #triangleButton {
+     float: right;
+     margin-right: 6px;
+  }
+  span.resource {
+    margin-left: 4px;
+  }
+  .af-form-wrapper {
+    clear: both;
+  }
+  .twoLiner {
+     display: block;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     line-height: 14px;
+  }
+  .simplemodal-wrap {
+     overflow: visible;
+   }
+   #simplemodal-overlay {
+      background-color: rgba(0, 0, 0, 1);
+      opacity: 0.85!important;
+    }
+   div#splash img {
+      height: 700px;
+      width: 700px;
+    }
+
+}

@@ -1,0 +1,284 @@
+Uri: http://cosmometry.net/
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\index.htm
+Content Type: text/html
+
+Uri: http://cosmometry.net/stylesheets/bundled/c21f969b5f03d33d43e04f8f136e7682.css
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\stylesheets\bundled\c21f969b5f03d33d43e04f8f136e7682.css
+Content Type: text/css
+
+Uri: http://cosmometry.net/stylesheets/jquery.lightbox-0.5.css
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\stylesheets\jquery.lightbox-0.5.css
+Content Type: text/css
+
+Uri: http://cosmometry.net/javascripts/galleria/themes/classic/galleria.classic.css
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\javascripts\galleria\themes\classic\galleria.classic.css
+Content Type: text/css
+
+Uri: http://cosmometry.net/home
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\home.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/landing?tags=what-is-cosmometry
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\landing.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/introduction-and-thesis
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\introduction-and-thesis.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/roots
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\roots.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/sacred-geometry
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\sacred-geometry.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/synergetics
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\synergetics.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/contemporary-research
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\contemporary-research.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/landing?tags=explore-cosmometry
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\landing-1.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/overview-of-cosmometry
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\overview-of-cosmometry.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/cosmometry-101
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\cosmometry-101.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/cosmometry-201
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\cosmometry-201.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/landing?tags=cosmometry-in-life
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\landing-2.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/intro-cosmometry-in-life
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\intro-cosmometry-in-life.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/human-experience
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\human-experience.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/music-and-sound
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\music-and-sound.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/landing?tags=application
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\landing-3.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/application-intro
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\application-intro.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/landing?tags=research
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\landing-4.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/research-vision
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\research-vision.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/by-topic
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\by-topic.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/researchers
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\researchers.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/landing?tags=about-the-project
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\landing-5.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/overview-&-vision
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\overview-&-vision.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/strategy-and-funding
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\strategy-and-funding.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/associations
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\associations.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/about-marshall-lefferts
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\about-marshall-lefferts.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/privacy-policy
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\privacy-policy.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/terms-of-use
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\terms-of-use.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/commenting-policy
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\commenting-policy.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/contact
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\contact.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/javascripts/bundled/76b7f29dac25e956f2ca5e3138559654.js
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\javascripts\bundled\76b7f29dac25e956f2ca5e3138559654.js
+Content Type: application/javascript
+
+Uri: http://cosmometry.net/javascripts/galleria/themes/classic/classic-loader.gif
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\javascripts\galleria\themes\classic\classic-loader.gif
+Content Type: image/gif
+
+Uri: http://cosmometry.net/javascripts/galleria/themes/classic/classic-map.png
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\javascripts\galleria\themes\classic\classic-map.png
+Content Type: image/png
+
+Uri: http://cosmometry.net/vector-equilibrium-&-isotropic-vector-matrix
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\vector-equilibrium-&-isotropic-vector-matrix.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/phi-fractal-scaling
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\phi-fractal-scaling.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/primary-assumptions
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\primary-assumptions.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/energetic-articulation
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\energetic-articulation.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/fractal-holographic-synergetic-universe
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\fractal-holographic-synergetic-universe.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/patterns,-structures,-processes
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\patterns,-structures,-processes.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/unified-field-and-quantum-field
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\unified-field-and-quantum-field.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/dynamic-polarity
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\dynamic-polarity.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/infinite-energy-potential
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\infinite-energy-potential.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/spacetime
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\spacetime.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/three-primary-components
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\three-primary-components.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/cosmometry-of-phi
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\cosmometry-of-phi.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/four-fundamental-characteristics-of-phi
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\four-fundamental-characteristics-of-phi.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/phi-spiral-and-nodes
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\phi-spiral-and-nodes.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/phi-vortex,-double-spiral-and-boundary-condition
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\phi-vortex,-double-spiral-and-boundary-condition.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/fractal-holographic-scaling-of-field-patterns
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\fractal-holographic-scaling-of-field-patterns.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/vortex-and-double-spirals-in-nature
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\vortex-and-double-spirals-in-nature.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/multi-frequency-phi-double-spirals
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\multi-frequency-phi-double-spirals.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/phi-quantities-and-fibonacci-numbers
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\phi-quantities-and-fibonacci-numbers.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/phi-scaling-angle
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\phi-scaling-angle.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/phi-rotation-angles
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\phi-rotation-angles.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/cosmometry-of-phi-summary
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\cosmometry-of-phi-summary.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/structural-cosmometry
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\structural-cosmometry.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/the-torus---dynamic-flow-process
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\the-torus---dynamic-flow-process.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/phi-double-spiral-field-patterning
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\phi-double-spiral-field-patterning.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/cosmometry-of-music
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\cosmometry-of-music.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/12-around-1
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\12-around-1.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/thrive-solutions-hub
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\thrive-solutions-hub.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/in-honor-of-brent-cameron
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\in-honor-of-brent-cameron.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/analog-and-digital-numeric-symmetry
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\analog-and-digital-numeric-symmetry.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/basic-aspects-of-phi
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\basic-aspects-of-phi.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/buckminster-fuller
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\buckminster-fuller.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/basics-of-the-music-system
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\basics-of-the-music-system.html
+Content Type: text/html
+
+Uri: http://cosmometry.net/tri-tone-duality-of-music
+File Name: C:\Users\miles\Downloads\WebCopy Sites\cosmometry.net\tri-tone-duality-of-music.html
+Content Type: text/html
+
